@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: poppins, sans-serif;
+    background-color: #f2f2f2;
+}
+.flex {
+    display: flex;
+}
+
+header nav {
+    padding-left: 700px;
+    padding-bottom: 5px; 
+}
+
+header div.navbar {
+    width: 100%;
+    position: fixed;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    top: 0;
+    border-bottom: 1px solid #7a7979;
+    z-index: 1;
+}
+
+header nav a {
+    text-decoration: none;
+    padding: 8px 0px 0px 50px;
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+header nav a:hover{
+    color: blue;
+    transition: 0.5s ease;
+}
+
+div.left {
+     padding: 130px 0 0 20px;
+}
+
+div.left h1 {
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+div.left h1 span {
+    color: blue;
+}
+
+div.left-most p:empty {
+    clip-path: polygon(0 0, 100% 0, 100% 5%,  50% 50%, 100% 95%, 100% 100%, 0 100%, 0 0);
+    margin-left: 40px;
+}
+
+div.right p:empty {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 95%, 50% 50%, 0 5%, 0 0);
+    margin-right: 40px;
+}
+
+div.left-most p:empty, div.right p:empty {
+    background-color: rgba(76, 129, 207, 0.658);
+    width: 400px;
+    height: 400px;
+    margin-top: 130px;
+}
+
+section div.social {
+    margin-top: 80px;
+}
+
+section div.left-2 img {
+    border-radius: 10px;
+}
+
+section div.left-2 {
+    padding-left: 300px; 
+}
+
+section div.flex {
+    justify-content: center;
+    align-items: center;
+}
+
+section p.right-2 {
+    text-align: left;
+    padding: 0px 300px 0px 100px;
+}
+
+section p.right-2 span {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+section div.left-3 h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 60px;
+} 
+
+.items p{
+    border: 2px solid rgba(9, 9, 216, 0.747);
+    width: 400px;
+    padding: 5px 10px;
+    color: black;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    background: white;
+    font-weight: 700px;
+}
+
+section div.right-3 {
+    padding: 20px 120px;
+    
+}
+
+div.skills h1, div.about h1, div.contact h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+}
+
+div.about, div.skills, div.contact {
+    margin: 90px 0px;
+}
+
+input, textarea {
+    margin: 0 35%;
+    padding: 12px 20px;
+    width: 30%;
+    outline: none;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    transition: 0.4s ease;
+    color: rgb(173, 169, 169);
+}
+input:focus, textarea:focus {
+    border: 2px solid rgb(103, 103, 248);
+}
+
+input {
+    height: 40px;
+}
+textarea {
+    resize: none;
+}
+div.input-wrap {
+      padding-bottom: 30px;
+      margin: 0px auto;
+}
+
+button {
+    background-color: rgb(68, 68, 238);
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 12px 23px;
+    cursor: pointer;
+    margin-left: 57%;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color:  rgb(233, 227, 227);
+    color: blue;
+    transition: 0.4s ease;
+}
+
+div.btn {
+    margin-bottom: 50px;
+}
+
+footer h3 {
+    margin: 5px 30px;
+}
+
+i.fa{
+    width: 35px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+i.fa-facebook {
+    background: blue;
+}
+
+i.fa-instagram {
+    background: red;
+}
+
+i.fa-twitter {
+    background: rgb(20, 240, 240);
+}
+
+i.fa-linkedin {
+    background: rgb(22, 160, 240);
+    margin-left: 20px;
+}
